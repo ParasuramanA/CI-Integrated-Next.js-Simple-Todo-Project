@@ -21,6 +21,9 @@
     "paths": {
       "@/*": ["./src/*"]
     }
+    ,
+    "types": ["jest", "@testing-library/jest-dom", "node"],
+    "allowSyntheticDefaultImports":true
   },
   "include": [
     "next-env.d.ts",
